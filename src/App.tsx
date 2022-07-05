@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { Header } from "./components/header/Header";
 import { Board } from "./components/board/Board";
@@ -14,7 +14,7 @@ const Container = styled.div`
 
 const App: React.FC = () => {
 
-  
+  const [cells, setCells] = useState("s");
 
 
   return (
