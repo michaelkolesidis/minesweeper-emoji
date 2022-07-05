@@ -1,96 +1,46 @@
-<div align="center">
-  
-  <img src="./screenshots/minesweeper-emoji-02.gif" /><br>
-  
-</div>
+# Getting Started with Create React App
 
-<h3 align="center">Minesweeper made with 😃 😵 💣 🚩 and ❤️ <br><a target="_blank" href="https://minesweeper-emoji.netlify.app/">Try me!</a><h3>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b318a02a-0a7e-483e-a046-547a1a3ac6ae/deploy-status)](https://app.netlify.com/sites/minesweeper-emoji/deploys)
+## Available Scripts
 
-  
-  
-## Technologies Used
-<a href="https://p5js.org/"><img src="https://github.com/michaelkolesidis/tech-icons/blob/main/icons/p5js/p5js.svg" height="50px"/></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://en.wikipedia.org/wiki/JavaScript"><img src="https://github.com/michaelkolesidis/tech-icons/blob/main/icons/javascript/javascript-original.svg" height="50px" /></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://en.wikipedia.org/wiki/CSS"><img src="https://github.com/michaelkolesidis/tech-icons/blob/main/icons/css3/css3-plain.svg" height="50px" /></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://github.com/michaelkolesidis/tech-icons/blob/main/icons/html5/html5-plain.svg" height="50px" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In the project directory, you can run:
 
-  
-  
-## Description
-The classic Minesweeper game reimagined and implemented with emojis. It is an example of object-based JavaScript, each Cell is an instance of the class Cell. Mines are allocated randomly on page load. 
+### `npm start`
 
-The mine allocation used to be based on probability (ex. each cell had a 15% chance to be a mine) which made the total number of mines variable. It has since been redesigned, and now the total number of mines can be set. 
-  
-  
-  
-## Controls
-  
-* Left-click to reveal cell<br>
-* Right-click to flag
-* New Game button restarts the game
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-  
-  
-## Screenshots:
-  
-#### Win
-<img src="./screenshots/win.png" />
-  
-#### Loss  
-<img src="./screenshots/loss.png" />
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-#### Idle  
-<img src="./screenshots/idle.png" />
+### `npm test`
 
-  
-  
-## To-do list
-  
-* ~~New Game button~~<br>
-* ~~Sane(r) mine allocation system~~
-* Mines counter<br>
-* Time counter<br>
-* Moves counter<br>
-* Allocate mines on first click to avoid clicking on a mine
-* Twemoji version
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-  
-  
-## Related Projects
+### `npm run build`
 
-[Tic-Tac-Toe](https://github.com/michaelkolesidis/tic-tac-toe)  
-  
-  
-  
-## License
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<a href="https://www.gnu.org/licenses/gpl-3.0.html"><img src="https://upload.wikimedia.org/wikipedia/commons/9/93/GPLv3_Logo.svg" height="100px" /></a>
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Copyright (c) 2022 Michael Kolesidis<br>
-Licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-<br>
-<br>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Learn More
 
-[//]: # (Free Software)
-<div align="center">
-  <br>
-  <br>
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-  <a href="https://github.com/michaelkolesidis/made-with-linux" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Made_with_Linux.png/240px-Made_with_Linux.png"></a>
-</div>
-<br>                                                      
-<div align="center">
-  <a href="https://endsoftwarepatents.org/innovating-without-patents"><img style="height: 90px;" src="https://static.fsf.org/nosvn/esp/logos/innovating-without-patents.svg"></a>
-</div>
+To learn React, check out the [React documentation](https://reactjs.org/).
