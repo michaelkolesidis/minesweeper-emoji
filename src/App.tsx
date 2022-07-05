@@ -14,7 +14,7 @@ const Container = styled.div`
 
 const App: React.FC = () => {
 
-  const [cells, setCells] = useState("s");
+  // const [cells, setCells] = useState("s");
 
 
   return (

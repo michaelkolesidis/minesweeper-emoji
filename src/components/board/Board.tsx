@@ -53,12 +53,11 @@ export const Board: React.FC = () => {
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
-      <Cell cellContent={DIGITS[6]} />
-      <Cell cellContent={FLAG} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
+
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
@@ -69,6 +68,7 @@ export const Board: React.FC = () => {
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
+
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
@@ -79,6 +79,7 @@ export const Board: React.FC = () => {
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
+
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
@@ -89,6 +90,7 @@ export const Board: React.FC = () => {
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
+
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
@@ -99,6 +101,7 @@ export const Board: React.FC = () => {
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
+
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
@@ -109,6 +112,7 @@ export const Board: React.FC = () => {
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
+
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
@@ -119,6 +123,7 @@ export const Board: React.FC = () => {
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
+
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
@@ -129,6 +134,7 @@ export const Board: React.FC = () => {
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
+
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
@@ -137,6 +143,9 @@ export const Board: React.FC = () => {
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
+      <Cell cellContent={EMPTY} />
+      <Cell cellContent={EMPTY} />
+
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />
       <Cell cellContent={EMPTY} />

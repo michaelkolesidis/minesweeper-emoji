@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 let size = `38px`;
@@ -39,8 +39,16 @@ type emoji =
 
 interface CellProps {
   cellContent: emoji;
+
 }
 
 export const Cell: React.FC<CellProps> = ({ cellContent }) => {
+
+  const [revealed, setRevealed] = useState(false);
+  const [mine, setMine] = useState(false);
+  const [minesAround, setMinesAround] = useState(0);
+  
+
+
   return <StyledCell>{cellContent}</StyledCell>;
 };
