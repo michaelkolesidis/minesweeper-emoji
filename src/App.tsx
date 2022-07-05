@@ -12,12 +12,18 @@ const Container = styled.div`
   flex-direction: column;
 `;
 
-const App: React.FC = () => (
-  <Container>
-    <Header headerText="Minesweeper Emoji" />
-    <Board />
-    <Button buttonText="New Game" />
-  </Container>
-);
+const App: React.FC = () => {
+
+  
+
+
+  return (
+    <Container>
+      <Header headerText="Minesweeper Emoji" />
+      <Board />
+      <Button buttonText="New Game" />
+    </Container>
+  );
+};
 
 export default App;

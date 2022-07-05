@@ -27,6 +27,7 @@ const StyledButton = styled.div`
 
 interface ButtonProps {
   buttonText: string;
+  onClick?: void;
 }
 
 export const Button: React.FC<ButtonProps> = ({ buttonText }) => {
